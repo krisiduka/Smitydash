@@ -1,0 +1,45 @@
+.main-temp-data {
+	text-align: center;
+}
+
+.city {
+	font-size: 1.8em;
+}
+
+.date {
+	margin-top: -30px;
+	font-size: 1.4em;
+}
+
+.main-temp {
+	font-size: 2.5em;
+	font-weight: 700;
+}
+
+.main-description {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: -40px;
+}
+
+.main-description img {
+	width: 100px;
+}
+
+.weather-description {
+	font-size: 1.2em;
+	text-transform: capitalize;
+	margin-top: -15px;
+}
+
+.main-info {
+	font-size: 1.5em;
+	font-weight: 700;
+	margin-top: -20px;
+}
+
+.secondary-info {
+	font-size: 1.2em;
+	color: rgb(240, 240, 240);
+}

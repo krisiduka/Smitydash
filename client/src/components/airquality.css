@@ -1,0 +1,36 @@
+.aqi-area {
+	text-align: center;
+	border-radius: 100%;
+	background-color: rgb(255, 255, 228);
+	width: 100px;
+	margin: auto;
+}
+
+.aqi-header {
+	font-size: 1.8em;
+	color: rgb(25, 25, 25);
+	padding-top: 10px;
+}
+
+.aqi-data {
+	font-size: 2.5em;
+	font-weight: 700;
+	margin-top: -35px;
+	color: rgb(25, 25, 25);
+}
+
+.airQuality_metrics_pointer {
+	font-size: 0.8em;
+	color: rgb(240, 240, 240);
+}
+
+.airqu-main-info {
+	font-size: 1.5em;
+	font-weight: 700;
+	margin-top: -20px;
+}
+
+.airqu-secondary-info {
+	font-size: 1.2em;
+	color: rgb(240, 240, 240);
+}

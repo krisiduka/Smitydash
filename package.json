@@ -1,0 +1,29 @@
+{
+	"name": "smitydash-back",
+	"version": "1.0.0",
+	"description": "A simple NodeJS API backend communicating with a MongoDB for Smitydash frontend",
+	"main": "server.js",
+	"scripts": {
+		"start": "concurrently \"npm run server\" \"npm run client\"",
+		"server": "nodemon server.js",
+		"client": "npm start --prefix client"
+	},
+	"author": "Krisi Duka",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^0.21.1",
+		"chart.js": "^3.4.0",
+		"cors": "^2.8.5",
+		"dotenv": "^10.0.0",
+		"express": "^4.17.1",
+		"moment": "^2.29.1",
+		"mongoose": "^5.12.13",
+		"react-chartjs-2": "^3.0.3",
+		"react-player": "^2.9.0",
+		"unix-timestamp": "^0.2.0"
+	},
+	"devDependencies": {
+		"concurrently": "^6.2.0",
+		"nodemon": "^2.0.7"
+	}
+}
